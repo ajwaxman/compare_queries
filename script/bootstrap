@@ -14,7 +14,10 @@ fi
 echo "running bundle install to make sure you have all the necessary gems..."
 bundle install
 
-echo "resetting and seeding the database..."
+echo "migrating the database..."
+bundle exec rake db:migrate 
+
+echo "resetting (in case script is run twice) and seeding the database..."
 bundle exec rake db:reset
 
 echo "running the rake task I use to describe and run the queries"
