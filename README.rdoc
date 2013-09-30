@@ -1,19 +1,19 @@
 == Query Comparison Challenge
 
-1. Clone repo <t>https://github.com/awaxman11/compare_queries.git</t>
+1. Clone repo <tt>https://github.com/awaxman11/compare_queries.git</tt>
 
-2. cd into the new compare_queries directory <t>cd compare_queries</t>
+2. cd into the new compare_queries directory <tt>cd compare_queries</tt>
 
-3. Run the bootstrap script <t>sh script/bootstrap</t>
+3. Run the bootstrap script <tt>sh script/bootstrap</tt>
 
 If you do not want to run the script without seeing what's inside of it (I'd imagine that's the case), you can check out the file yourself (here)[https://github.com/awaxman11/compare_queries/blob/master/script/bootstrap].
 
 If you'd rather not run the script at all you can manually run the steps in the script as well:
 
-1. <t>bundle install</>
-2. <t>rake db:migrate</>
-3. <t>rake db:reset</>
-4. <t>rake run:intro_text</>
-5. <t>rake run:compare_queries</>
+1. <tt>bundle install</tt>
+2. <tt>rake db:migrate<tt/>
+3. <tt>rake db:reset<tt/>
+4. <tt>rake run:intro_text<tt/>
+5. <tt>rake run:compare_queries<tt/>
 
 
