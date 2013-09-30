@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+echo "Welcome to HireMe..."
+echo "Setting up your environment..."
+
+if test ! $(which bundle)
+then
+  echo "  x You need to install Bundler:"
+  echo "    gem install bundler"
+  exit
+fi
+
+echo "running bundle install to make sure you have all the necessary gems..."
+bundle install
+
+echo "resetting and seeding the database..."
+bundle exec rake db:reset
+
+echo "running the rake task I use to describe and run the queries"
+bundle exec rake run:intro_text
+bundle exec rake run:compare_queries
+
+echo "to see the benchmarking metrics without all the intro text you can run 'rake run:compare_queries'"
+echo "to see the intro text again w/o running this whole script you can run 'rake run:intro_text' in the console"

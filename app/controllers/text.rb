@@ -20,7 +20,7 @@ puts <<-TEXT
                                      __/ |     
                                     |___/         
 
-By Adam Waxman                 
+By Adam Waxman \n                
 TEXT
     
   end
@@ -42,7 +42,7 @@ TEXT
 
   def self.print_queries
 
-    puts "\nEach query is written as a class method in the Classroom model\n"
+    puts "\n\n *** Each query is written as a class method in the Classroom model ***\n"
     sleep (1)
 
     print "\nQuery #1"
@@ -111,6 +111,31 @@ TEXT
       print "."
       sleep(1)
     end
+    puts ""
+    
+    print "\nAnd the fastest query in this situaion is"
+    5.times do |i|
+      print "."
+      sleep(1)
+    end
+
+    puts <<-TEXT
+
+
+      ,ad8888ba,                                                     ad888888b,  
+     d8"'    `"8b                                                   d8"     "88  
+    d8'        `8b                                                          a8P  
+    88          88 88       88  ,adPPYba, 8b,dPPYba, 8b       d8         aad8"   
+    88          88 88       88 a8P_____88 88P'   "Y8 `8b     d8'         ""Y8,   
+    Y8,    "88,,8P 88       88 8PP""""""" 88          `8b   d8'             "8b  
+     Y8a.    Y88P  "8a,   ,a88 "8b,   ,aa 88           `8b,d8'      Y8,     a88  
+      `"Y8888Y"Y8a  `"YbbdP'Y8  `"Ybbd8"' 88             Y88'        "Y888888P'  
+                                                         d8'                     
+                                                        d8' 
+
+    See the results below for the specific benchmark metrics                                                    
+    TEXT
+
     puts ""
   end
 
