@@ -6,14 +6,14 @@
 
 3. Run the bootstrap script <tt>sh script/bootstrap</tt>
 
-If you do not want to run the script without seeing what's inside of it (I'd imagine that's the case), you can check out the file yourself (here)[https://github.com/awaxman11/compare_queries/blob/master/script/bootstrap].
+If you do not want to run the script without seeing what's inside of it, you can check out the file yourself here[https://github.com/awaxman11/compare_queries/blob/master/script/bootstrap].
 
 If you'd rather not run the script at all you can manually run the steps in the script as well:
 
 1. <tt>bundle install</tt>
-2. <tt>rake db:migrate<tt/>
-3. <tt>rake db:reset<tt/>
-4. <tt>rake run:intro_text<tt/>
-5. <tt>rake run:compare_queries<tt/>
+2. <tt>rake db:migrate</tt>
+3. <tt>rake db:reset</tt>
+4. <tt>rake run:intro_text</tt>
+5. <tt>rake run:compare_queries</tt>
 
 
