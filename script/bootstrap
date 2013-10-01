@@ -13,7 +13,7 @@ fi
 echo "running bundle install to make sure you have all the necessary gems..."
 bundle install
 
-echo "migrating the database..."
+echo "creating the database..."
 bundle exec rake db:create 
 
 echo "migrating the database..."
