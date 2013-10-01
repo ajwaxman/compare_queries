@@ -1,6 +1,6 @@
 == Query Comparison Challenge
 
-1. Clone repo <tt>git clone https://http://github.com/awaxman11/compare_queries.git</tt>
+1. Clone repo <tt>git clone https://https://github.com/awaxman11/compare_queries.git</tt>
 
 2. cd into the new compare_queries directory <tt>cd compare_queries</tt>
 
