@@ -11,6 +11,7 @@ If you do not want to run the script without seeing what's inside of it, you can
 If you'd rather not run the script at all you can manually run the steps in the script as well:
 
 1. <tt>bundle install</tt>
+2. <tt>rake db:create</tt>
 2. <tt>rake db:migrate</tt>
 3. <tt>rake db:seed</tt>
 4. <tt>rake run:intro_text</tt>
