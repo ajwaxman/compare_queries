@@ -1,6 +1,6 @@
 == Query Comparison Challenge
 
-1. Clone repo <tt>git clone https://github.com/awaxman11/compare_queries.git</tt>
+1. Clone repo <tt>git clone https://http://github.com/awaxman11/compare_queries.git</tt>
 
 2. cd into the new compare_queries directory <tt>cd compare_queries</tt>
 
@@ -12,7 +12,7 @@ If you'd rather not run the script at all you can manually run the steps in the 
 
 1. <tt>bundle install</tt>
 2. <tt>rake db:migrate</tt>
-3. <tt>rake db:reset</tt>
+3. <tt>rake db:seed</tt>
 4. <tt>rake run:intro_text</tt>
 5. <tt>rake run:compare_queries</tt>
 
