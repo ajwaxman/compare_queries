@@ -113,7 +113,7 @@ TEXT
     end
     puts ""
     
-    print "\nAnd the fastest query in this situaion is"
+    print "\nAnd the fastest query in this situation is"
     5.times do |i|
       print "."
       sleep(1)
